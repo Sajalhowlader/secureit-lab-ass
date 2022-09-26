@@ -24,13 +24,17 @@ p.logo_name {
   font-weight: bold;
 }
 .footer_container {
-  background: #040468;
-  padding: 2rem 0rem;
+  background: #081430;
   text-align: center;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.footer_container img {
+  width: 10%;
+}
 .footer_icon {
-  margin-right: .8rem;
+  margin-right: 0.8rem;
   font-size: 1.3rem;
 }
