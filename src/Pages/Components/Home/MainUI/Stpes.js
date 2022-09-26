@@ -10,16 +10,16 @@ const Stpes = () => {
       </p>
       <div className="stepOneInfo">
         <div>
-          <li>yes</li>
-          <li>yes</li>
-          <li>yes</li>
-          <li>yes</li>
+          <li>Yes</li>
+          <li>Yes</li>
+          <li>Yes</li>
+          <li>Yes</li>
         </div>
         <div>
-          <li>yes</li>
-          <li>yes</li>
-          <li>yes</li>
-          <li>yes</li>
+          <li>Yes</li>
+          <li>Yes</li>
+          <li>Yes</li>
+          <li>Yes</li>
         </div>
       </div>
     </div>

@@ -73,11 +73,13 @@ span {
   margin: 0 auto;
   border-radius: 10px;
 }
-
-.step3Btn button {
+.step3Btn {
   display: flex;
   justify-content: center;
   gap: 5rem;
+}
+
+.step3Btn button {
   background: #37876f;
   border: none;
   padding: 10px 20px;
@@ -107,6 +109,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
 }
 .footerInfo img {
   width: 10%;
@@ -114,4 +117,21 @@ span {
 .footer_icon {
   margin-right: 0.8rem;
   font-size: 1.3rem;
+}
+@media screen and (max-width: 668px) {
+  .steps {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .progressTitleOne {
+    margin-top: 25px;
+  }
+  .infoSecond {
+    padding: 0px 25px;
+    margin-bottom: 30px;
+  }
+  .step3Btn {
+    gap: 3rem;
+  }
 }
