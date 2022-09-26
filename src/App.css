@@ -49,6 +49,41 @@ span {
   height: 99px;
   background: #bdb5b5;
 }
+.firstSpan {
+  width: 10px;
+  height: 2px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 14rem;
+  margin-bottom: 10px;
+}
+/* steps */
+._2_g61 {
+  padding-top: 3rem !important;
+}
+
+.steps {
+  background: #ddd9d9;
+  width: 48%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.stepOneInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+  font-family: arial;
+  gap: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.progressTitleOne {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
 /* Footer */
 .footer_container {
   background: #081430;
