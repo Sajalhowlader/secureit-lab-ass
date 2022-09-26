@@ -62,14 +62,29 @@ span {
 ._2_g61 {
   padding-top: 3rem !important;
 }
-
+._2pGos._3CDiP._2RWmX {
+  background: #ff0047 !important;
+  color: white;
+  opacity: 10 !important;
+}
 .steps {
   background: #ddd9d9;
-  width: 48%;
+  width: 44%;
   margin: 0 auto;
   border-radius: 10px;
 }
 
+.step3Btn button {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  background: #37876f;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 800;
+  color: white;
+  border-radius: 10px;
+}
 .stepOneInfo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -85,7 +100,7 @@ span {
   padding-bottom: 10px;
 }
 /* Footer */
-.footer_container {
+.footerInfo {
   background: #081430;
   text-align: center;
   color: white;
@@ -93,7 +108,7 @@ span {
   align-items: center;
   justify-content: space-between;
 }
-.footer_container img {
+.footerInfo img {
   width: 10%;
 }
 .footer_icon {

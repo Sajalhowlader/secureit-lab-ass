@@ -25,7 +25,17 @@ const Stpes = () => {
     </div>
   );
   const step2Content = <h1>Step 2 Content</h1>;
-  const step3Content = <h1>Step 3 Content</h1>;
+  const step3Content = (
+    <div className="step3">
+      <p className="progressTitleOne">
+        Submit the form to calculate preparedness
+      </p>
+      <div className="step3Btn">
+        <button>Previous</button>
+        <button>Submit</button>
+      </div>
+    </div>
+  );
   const step4Content = <h1>Step 3 Content</h1>;
 
   function step2Validator() {
