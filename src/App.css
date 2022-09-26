@@ -30,9 +30,24 @@ p.logo_name {
   font-weight: bold;
   font-family: arial;
 }
-.infoSecond {
+.infoTwo {
   color: #ff2300;
   padding: 6px 0px;
+}
+.infoSecond {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-family: arial;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+span {
+  width: 2px;
+  height: 99px;
+  background: #bdb5b5;
 }
 /* Footer */
 .footer_container {
