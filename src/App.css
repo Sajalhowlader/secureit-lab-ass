@@ -23,3 +23,14 @@ p.logo_name {
   border-radius: 50%;
   font-weight: bold;
 }
+.footer_container {
+  background: #040468;
+  padding: 2rem 0rem;
+  text-align: center;
+  color: white;
+}
+
+.footer_icon {
+  margin-right: .8rem;
+  font-size: 1.3rem;
+}
