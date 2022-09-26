@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.logo_name_img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0rem;
+}
+
+.logo_name_img img {
+  width: 18%;
+}
+
+p.logo_name {
+  background: #ffb100;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
