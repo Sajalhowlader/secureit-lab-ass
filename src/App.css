@@ -23,6 +23,18 @@ p.logo_name {
   border-radius: 50%;
   font-weight: bold;
 }
+/* Main Ui */
+.infoOne {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: arial;
+}
+.infoSecond {
+  color: #ff2300;
+  padding: 6px 0px;
+}
+/* Footer */
 .footer_container {
   background: #081430;
   text-align: center;
